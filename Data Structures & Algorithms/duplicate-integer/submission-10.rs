@@ -1,3 +1,4 @@
+// sorting method
 impl Solution {
     pub fn has_duplicate(nums: Vec<i32>) -> bool {
         for i in 0..nums.len() {
