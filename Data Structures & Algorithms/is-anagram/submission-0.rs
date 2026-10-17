@@ -6,6 +6,7 @@ use itertools::Itertools;
 impl Solution {
     pub fn is_anagram(s: String, t: String) -> bool {
         // using itertools to sort the strings
+        // using itertools slow in compare to using what rust gives
         // let s = s.chars().sorted();
         // let t = t.chars().sorted();
         let mut s: Vec<_> = s.chars().collect::<Vec<char>>();

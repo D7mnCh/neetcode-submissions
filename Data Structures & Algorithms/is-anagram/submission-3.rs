@@ -1,5 +1,11 @@
-// naive approach that needs, but submit it
-// next submit will be an approvement of this approach
+/*
+ - HashMap
+ - time complexity: O(n+m)
+    - looping through two hashmaps's elements
+ - space complexity: O(1)
+    - at most hashmaps can store only 26 chars, so doesn't
+    depend on n or m parameteres
+*/
 // what is the time and space complexity of this approach ?
 impl Solution {
     pub fn is_anagram(s: String, t: String) -> bool {
